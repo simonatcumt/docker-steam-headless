@@ -69,7 +69,7 @@ services:
       - /dev/uinput
       # Add AMD/Intel HW accelerated video encoding/decoding devices [REQUIRED].
       # NOTE: See documentation for determining which devices to configure here if you have multiple GPUs
-      - /dev/dri/card1
+      - /dev/dri/card0
       - /dev/dri/renderD128
     # Ensure container access to devices 13:*
     device_cgroup_rules:
